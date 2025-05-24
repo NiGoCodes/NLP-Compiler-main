@@ -1,0 +1,10 @@
+README.md
+setup.py
+nlp_compiler/__init__.py
+nlp_compiler/compiler.py
+nlp_compiler.egg-info/PKG-INFO
+nlp_compiler.egg-info/SOURCES.txt
+nlp_compiler.egg-info/dependency_links.txt
+nlp_compiler.egg-info/requires.txt
+nlp_compiler.egg-info/top_level.txt
+tests/test_compiler.py
