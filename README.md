@@ -14,6 +14,7 @@ A rule-based natural language to Python code compiler that converts English inst
 
 1. Clone this repository:
 
+//adding comments for the readme
 ```bash
 git clone https://github.com/yourusername/nlp-compiler.git
 cd nlp-compiler
