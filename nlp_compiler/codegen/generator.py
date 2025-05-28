@@ -318,33 +318,9 @@ def get_list_input() -> List[int]:
         except ValueError:
             print("Please enter valid integers separated by spaces.")
 
-def main():
-    try:
-        numbers = get_list_input()
-        result = sum_list(numbers)
-        print(f"Sum of numbers: {result}")
-    except Exception as e:
-        print(f"Error: {str(e)}")
 
-if __name__ == "__main__":
-    main()'''
 
-    def _generate_list_max_script(self, info: SemanticInfo) -> str:
-        return '''from typing import List
 
-def find_max(numbers: List[int]) -> int:
-    """
-    Find the maximum element in a list.
-    """
-    return max(numbers)
-
-def get_list_input() -> List[int]:
-    while True:
-        try:
-            numbers_str = input("Enter numbers (space-separated): ")
-            return [int(n) for n in numbers_str.split()]
-        except ValueError:
-            print("Please enter valid integers separated by spaces.")
 
 def main():
     try:
